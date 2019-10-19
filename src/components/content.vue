@@ -4,6 +4,7 @@
       class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
     >Limit to 2</button>
     <div v-for="film in films" :key="film.id">
+      
       <div class="max-w-full rounded overflow-hidden shadow-lg">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{film.title}}</div>
